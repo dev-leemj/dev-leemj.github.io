@@ -10,7 +10,7 @@ const About: NextPage = () => {
 			<p>이미진 (LEE MI JIN)</p>
 			<br/>
 			<p>Email: leemj314@gmail.com</p>
-			<p>GitHub: <Link href="https://github.com/MitNy">https://github.com/MitNy</Link></p>
+			<p>GitHub: <Link href="https://github.com/dev-leemj">https://github.com/dev-leemj</Link></p>
 		</div>
 	)
 }
