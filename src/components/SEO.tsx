@@ -5,7 +5,7 @@ interface SEOProps extends NextSeoProps {}
 export function SEO(props: SEOProps) {
 	const title = `${
 		props.title != null ? `${props.title} | ` : ""
-	} MitNy.log`;
+	} Dev - Lee Mijin`;
 
 	return <NextSeo {...props} title={title} />;
 }
@@ -13,7 +13,7 @@ export function SEO(props: SEOProps) {
 export function getCanonicalAbsolutePath(relativePath: string) {
 	const isStartWithSlash = relativePath.startsWith("/");
 
-	return `https://mitny.github.io${
+	return `https://dev-leemj.github.io${
 		isStartWithSlash ? relativePath : `/${relativePath}`
 	}`;
 }
