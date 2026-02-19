@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dev-leemj.github.io
+
+# Sitemaps
+Sitemap: https://dev-leemj.github.io/sitemap.xml
